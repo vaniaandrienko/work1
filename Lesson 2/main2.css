@@ -1,0 +1,42 @@
+body {
+    margin: 0px
+}
+
+.qqq {
+    box-sizing: border-box;
+    background: darkred;
+    padding: 1px;
+    margin: 10px;
+    text-align: center;
+
+}
+.www{
+box-sizing: border-box;
+    background: silver  ;
+    margin: 10px 10px 0px 10px;
+    padding: 20px;
+}
+.eee{
+    box-sizing: border-box;
+    background: cornflowerblue;
+    padding: 20px;
+    margin: 0px 10px 0px 10px;
+}
+
+.rrr{
+    background: #58d258;
+    width: 200px;
+    height: 200px;
+    margin: 0px 10px 0px 10px;
+
+}
+
+.aaa{
+
+    background: #746194;
+    width: 200px;
+    height: 200px;
+    margin: 0px 10px 10px 10px;
+    border-radius: 20px;
+
+}
