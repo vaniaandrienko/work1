@@ -1,0 +1,29 @@
+.www {
+    box-sizing: border-box;
+    width: 400px;
+    height: 150px;
+    background: silver;
+    margin-top: 50px;
+    box-shadow: sandybrown -50px -50px 100px 1px;
+}
+
+.eee {
+
+    margin-left: 35px;
+
+
+}
+
+.line {
+    line-height: 0px;
+    margin-top: 20px;
+    margin-left: -15px;
+}
+
+.qqq {
+
+    background: red;
+    width: 5px;
+    height: 100px;
+    margin-top: -110px;
+}

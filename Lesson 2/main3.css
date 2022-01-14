@@ -1,0 +1,38 @@
+
+.www {
+    border: 5px solid darkorange;
+    border-radius: 100px;
+    box-sizing: border-box;
+    margin: 100px 600px 10px 600px;
+    text-align: center;
+    padding: 15px;
+
+
+}
+
+.eee{
+    border: 5px solid cyan;
+    border-radius: 100px;
+    box-sizing: border-box;
+    margin: 10px 600px 10px 600px;
+    text-align: center;
+    padding: 15px;
+
+}
+.rrr{
+    border: 5px solid hotpink;
+    border-radius: 100px;
+    box-sizing: border-box;
+    margin: 10px 600px 10px 600px;
+    text-align: center;
+    padding: 15px;
+}
+.ttt{
+    border: 5px solid orangered;
+    border-radius: 100px;
+    box-sizing: border-box;
+    margin: 10px 600px 10px 600px;
+    text-align: center;
+    padding: 15px;
+}
+
