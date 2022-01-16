@@ -1,0 +1,36 @@
+.container {
+    width: 500px;
+    border: 5px solid silver;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    box-sizing: border-box;
+
+
+}
+
+.blockA, .blockB, .blockC {
+
+    background: silver;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+}
+.blockA{
+    margin-bottom: 5px;
+}
+.blockB{
+    margin-right: 5px;
+}
+
+.bc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+

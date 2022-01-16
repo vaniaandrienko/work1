@@ -1,0 +1,40 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    border: 2px solid black;
+}
+
+.b-c-d-e-f {
+    display: flex;
+    flex-direction: row;
+}
+
+.b-c-d-e {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.blockA, .blockB, .blockC, .blockD, .blockE {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: grey;
+    border: 1px solid white;
+}
+
+.c-d-e {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.blockF {
+    width: 100%;
+    text-align: center;
+    background: grey;
+    border: 1px solid white;
+}

@@ -1,0 +1,80 @@
+.container {
+    background: lightblue;
+    height: 400px;
+    width: 700px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
+    padding: 20px;
+}
+
+.a, .b, .c, .d, .e, .f {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.a1, .b1, .c1, .d1, .e1, .f1 {
+
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h4 {
+    color: orange;
+
+}
+
+
+.conteiner1 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.a, .b {
+    width: 300px;
+    height: 100px;
+    background: white;
+    border-radius: 10px;
+    margin: 5px;
+    box-sizing: border-box;
+
+
+}
+
+
+
+.conteiner2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+
+.c, .d {
+    width: 300px;
+    height: 100px;
+    background: white;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.conteiner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.e, .f {
+    width: 300px;
+    height: 100px;
+    background: white;
+    border-radius: 10px;
+    margin: 5px;
+}
