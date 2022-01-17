@@ -1,0 +1,61 @@
+.wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.boxA {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box1 {
+    width: 60px;
+    height: 60px;
+    border: 1px solid silver;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    border: 1px solid silver;
+    text-align: center;
+    width: 250px;
+    height: 300px;
+    box-shadow: 1px 1px 1px 1px silver  ;
+}
+
+.box2-1, .box2-2, .box2-3 {
+    padding: 10px;
+}
+
+p {
+    font-size: 20px
+}
+
+.box2-2 {
+    color: silver;
+}
+
+.box2-3 {
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.box1 > img {
+    height: 20px;
+    width: 20px;
+
+}
+
+
