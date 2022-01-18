@@ -18,6 +18,7 @@
     padding: 20px;
     background: white;
     margin: 10px;
+    border-radius: 10px;
 
 }
 .block-left{
@@ -44,4 +45,8 @@
 
 p{
     margin: 0;
+    color: silver;
+}
+h3{
+    color: orange;
 }
