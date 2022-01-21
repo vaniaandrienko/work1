@@ -1,0 +1,104 @@
+.flex{
+    display: flex;
+}
+.flexdirow{
+    flex-direction: row;
+}
+.flexdircol{
+    flex-direction: column;
+}
+.baggray{
+    background: gray;
+}
+
+.w400{
+    width: 400px;
+}
+
+.h300{
+    height: 300px;
+}
+.borrad5{
+    border-radius: 5px;
+}
+
+.border{
+    border: 5px solid silver;
+}
+
+.margtop5{
+    margin-top: 5px;
+}
+.margle5{
+    margin-left: 5px;
+}
+.margbo5{
+    margin-bottom: 5px;
+}
+.margri5{
+    margin-right: 5px;
+}
+
+.borrad5{
+    border-radius: 5px;
+}
+
+.w100{
+    width: 100px;
+}
+.h100{
+    height: 100px;
+}
+.h185{
+    height: 185px;
+}
+
+.w250{
+    width: 250px;
+}
+
+.w135{
+    width: 135px;
+}
+
+.text{
+    text-align: center;
+}
+
+@media screen  and (min-width: 0) and (max-width: 300px){
+
+    .wrap{
+        width: 200px;
+    border-radius: 20px;
+        border: 5px solid black;
+    }
+
+    .blockB{
+        width: 200px;
+        flex-wrap: wrap;
+    }
+
+    .bb{
+        width: 190px;
+        height: 150px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 20px;
+
+    }
+
+    .bc{
+        width: 190px;
+        height: 50px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        border-radius: 20px;
+    }
+    .blockA{
+        width: 190px;
+        height: 50px;
+        margin-left: 5px;
+        border-radius: 20px;
+    }
+
+}
