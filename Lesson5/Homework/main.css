@@ -1,0 +1,142 @@
+
+body{
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+}
+.flexdirow{
+    flex-direction: row;
+}
+.flexdircol{
+    flex-direction: column;
+}
+.flexwrap{
+    flex-wrap: wrap;
+}
+.h50{
+    height: 50px;
+}
+.w100{
+    width: 100px;
+}
+.w200{
+    width: 200px;
+}
+.w300{
+    width: 300px;
+}
+.baggray{
+    background: gray;
+}
+.Header{
+    background: gray;
+}
+.martop5{
+    margin-top: 5px;
+}
+.margle5{
+    margin-left: 5px;
+}
+.margri5{
+    margin-right: 5px;
+}
+.margbo5{
+    margin-bottom: 5px;
+}
+.textal{
+    text-align: center;
+}
+
+.h300{
+    height: 300px;
+}
+.h355{
+    height: 355px;
+}
+.w400{
+    width: 410px;
+}
+.w305{
+    width: 305px;
+}
+
+
+.maxw400{
+    max-width: 400px;
+}
+.blocklefrbotdub{
+    display: none;
+}
+@media screen  and (min-width: 0) and (max-width: 200px){
+
+    .blockB{
+        flex-wrap: wrap;
+
+    }
+    .Logo{
+        margin-right: 1px;
+    }
+
+    .Store{
+        display: none;
+    }
+    .Tools{
+        display: none;
+    }
+    .Nav{
+        display: block;
+        width: 200px;
+        height: 25px;
+    }
+
+    .blockccenter{
+        display: inline;
+    }
+    .Balt{
+        width: 120px;
+        height: 75px;
+    }
+    .Ad{
+        width: 70px;
+        height: 75px;
+    }
+
+    .blockcctop{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .blockccbot{
+        display: flex;
+        flex-direction: column;
+    }
+    .Types{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 5px;
+    }
+
+    .Related{
+        width: 100%;
+        height: 80px;
+        margin-bottom: 5px;
+    }
+
+    .Footer{
+        width: 100%;
+        height: 100px;
+    }
+
+    .blocklefrbotdub{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .Storedub{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+}
