@@ -1,5 +1,6 @@
 .wrap{
-    width: 800px;
+    max-width: 800px;
+    width: 100%;
 }
 .B1, .B2{
     display: flex;
@@ -45,20 +46,21 @@
 }
 
 .boxbr{
+    width: 100%;
     display: flex;
     flex-direction: column;
     /*border: 2px solid black;*/
 }
 
 .secA{
-    width: 714px;
+    /*width: 100%;*/
     height: 200px;
     border: 2px solid black;
     border-top: 0;
 
 }
 .box2{
-    width: 690px;
+    /*width: 100%;*/
     height: 180px;
     background: silver;
     margin: 10px;
@@ -73,16 +75,12 @@
 
 
 }
-.sb1 , .sb2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 
-}
-.secb1{
+.secB1, .secB2{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .box3{
@@ -111,9 +109,7 @@
 }
 
 .container-5 {
-    max-width: 600px;
     width: 100%;
-    height: 390px;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
@@ -188,22 +184,22 @@
     margin: 5px;
 }
 
-@media only screen and (max-width: 400px) {
-    .container-5{
-        height: 170px;
-    }
-    .blocks-container {
-        flex-direction: row;
-        justify-content: center;
-    }
+@media only screen and (max-width: 750px) {
+
     .wrap{
-        width: 380px;
+        max-width: 740px;
         height: 600px;
         margin-left: 5px;
     }
+
+    .blocks-container {
+        flex-direction: row;
+        justify-content: center;
+ }
     .block{
-        width: 180px;
+        width: 100%;
         height: 50px;
+
     }
     .boxbl{
         display: none;
@@ -212,35 +208,63 @@
         display: none;
         justify-content: left;
     }
-    .secA {
-        width: 376px;
-    }
-    .box2{
-        width: 360px;
-    }
     .secB{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        width: 376px;
+        justify-content: center;
+
     }
+    .secB1, .secB2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 10px;
+
+
+    }
+    .container-5{
+        width: 98.9%;
+    }
+
+    .container-5right_1{
+        width: 50%;
+    }
+    .block2{
+        width: 50%;
+        height: 66px;
+    }
+
+
+
     .box3{
-        width: 50px;
+        width: 100%;
         height: 50px;
     }
 
     .container-5right{
-        display: none;
+        display: flex;
+        flex-direction: row;
+        max-width: none;
+        width: 99.4%;
+        height: 100%;
+        border-left: 2px solid black;
     }
+    .secC{
+        display: flex;
+        flex-direction: column;
+        width: 99.8%;
+    }
+
 }
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 600px){
 
     .blocks-container {
         flex-direction: column;
         justify-content: center;
     }
     .wrap{
-        width: 280px;
+        width: 100%;
     }
     .boxtop{
         display: flex;
@@ -255,19 +279,37 @@
     .boxbl{
         display: none;
     }
-    .secA{
-        width: 276px;
+    .container-5right_1{
+        width: 100%;
+        margin-left: 5px;
     }
-    .box2{
-        width: 255px;
+    .container-5right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*max-width: none;*/
+        height: 99.5%;
+        border-left: 2px solid black;
     }
-.secB{
-    width: 276px;
-    display: flex;
-    flex-direction: column;
+
+    .container-5{
+        width: 98.5%;
+    }
+.block{
+    /*margin-right: 5px;*/
+    width: 99%;
 }
-.secB1{
-    display: flex;
-    justify-content: space-between;
-}
+    .block2{
+        width: 98%;
+        margin: 5px;
+    }
+    .block1{
+        width: 98%;
+    }
+
+    .secD{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
 }
