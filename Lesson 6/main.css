@@ -119,28 +119,29 @@
     cursor: pointer;
 }
 
-.header_content_right_imeg>img{
+.header_content_right_imeg > img {
     height: 512px;
     width: 667px;
 }
 
-.container2{
+.container2 {
     margin-top: 104.59px;
-    display:flex;
+    display: flex;
     flex-direction: row;
 }
 
-.container2_imeg{
+.container2_imeg {
     margin: 84px 104px 143px 145px;
 }
 
-.container2_content_H{
+.container2_content_H {
     font-weight: bold;
     font-size: 57px;
     line-height: 58px;
     color: #000000;
 }
-.container2_content_P{
+
+.container2_content_P {
     font-weight: normal;
     font-size: 20px;
     line-height: 31px;
@@ -149,7 +150,7 @@
     margin-right: 193px;
 }
 
-.container3_H{
+.container3_H {
     font-weight: bold;
     font-size: 58px;
     line-height: 58px;
@@ -157,10 +158,16 @@
     margin: 88px 940px 82px 145px;
 }
 
-.container3_box1{
+.container3_bot {
+    display: flex;
+    flex-direction: row;
+}
+
+.container3_box1 {
     margin-left: 145px;
 }
-.container3_bot_box1_H{
+
+.container3_bot_box1_H {
     font-weight: bold;
     font-size: 28px;
     line-height: 36px;
@@ -169,10 +176,81 @@
     margin-bottom: 10px;
 }
 
-.container3_bot_box1_P{
+.container3_bot_box1_P {
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
     color: #000000;
     margin-right: 64px;
+}
+
+.container3_botton {
+    position: absolute;
+    height: 50px;
+    width: 235px;
+    background: #F7B2B7;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-left: 145px;
+    margin-top: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.container3_botton_1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.container4{
+    margin-top: 247px;
+    background: #FDECED;
+    border-radius: 0px;
+    height: 705px;
+}
+
+.container4_top{
+
+    margin: 88px 738px 82px 145px;
+}
+
+.container4_H{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 58px;
+    color: #000000;
+    padding-top: 86px;
+    margin-bottom: 88px;
+}
+
+.container5{
+    height: 3261px;
+    background: #FFFFFF;
+    border-radius: 0px;
+}
+
+.container5_top{
+    display: flex;
+    flex-direction: row;
+}
+.container5_top_left_P{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 36px;
+    color: #000000;
+    margin: 129px 137.38px 958px 145px;
+}
+
+.container5_top_right_1{
+    display: flex;
+    flex-direction: row;
+    grid-row: 20px;
 }
