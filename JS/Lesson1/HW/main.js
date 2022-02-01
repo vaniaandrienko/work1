@@ -64,16 +64,18 @@
 // document.write(folse1+ "<br/>")
 
 
-// let person = {
-//     firstName : 'Ivan',
-//     middleName : 'Olegovach',
-//     lastName : 'Andrienko',
-// }
-// console.log(person);
+// let firstName = 'Ivan'
+// let middleName = 'Olegovich'
+// let lastName = 'Andrienko'
+//
+// let person = firstName + ' ' + middleName + ' ' + lastName
+// console.log(person)
 
 
-// let test = prompt("Вітаю Іван Олегович");
-// let test2 = prompt("Тобі 24 роки");
+// let name = prompt('Введіть імя');
+// let midd = prompt('Введіть по батькові');
+// let age = prompt('Введіть ваш вік');
+// console.log('Вітаю: ' + name +' '+ midd + '. '+'Тобі'+' '+age+' років'  )
 
 
 // let a = 100;
