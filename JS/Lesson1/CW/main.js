@@ -1,10 +1,8 @@
 //1. Створити масив з 10 чисел (можна використовувати Math.random Та Math.floor). Скласти результат цих чисел в змінній result.
 
-let numbers =[1,15,43,20,11,23,-10,8,40,-30]
-
-
-
-
+// let numbers =[Math.floor(Math.random()),Math.random(),43,20,11,23,-10,8,40,-30]
+// let result = numbers[0]+numbers[1]+numbers[2]+numbers[3]+numbers[4]+numbers[5]+numbers[6]+numbers[7]+numbers[8]+numbers[9]
+// console.log(result)
 
 
 //2. Створити об'єкт book з наступними полями  - назва, кількість сторінок, жанр
@@ -28,31 +26,31 @@ let numbers =[1,15,43,20,11,23,-10,8,40,-30]
 
 //4. Створити маис об'єктів book з наступними полями  - назва, кількість сторінок, жанр, автори. Вивести кожну книгу як окремий об'єкт
 
-// let books ={
+// let books =[
 //
-//     book1:{
+//     {
 //         name:'King',
 //         page: 345,
 //         genre: 'vestern',
 //         author: 'Ben Bon'
 //     },
 //
-//     book2:{
+//     {
 //         name:'King',
 //         page: 345,
 //         genre: 'vestern',
 //         author: 'Ben Bon'
 //     },
-//     book3:{
+//     {
 //         name:'King',
 //         page: 345,
 //         genre: 'vestern',
 //         author: 'Ben Bon'
 //     }
-// }
-// console.log(books.book1)
-// console.log(books.book2)
-// console.log(books.book3)
+// ]
+// console.log(books[0])
+// console.log(books[1])
+// console.log(books[2])
 
 
 //5. Напишіть код, який вираховує площу прямокутника висотою 23см. (змінна height) та шириною 10см (змінна width).
@@ -60,7 +58,7 @@ let numbers =[1,15,43,20,11,23,-10,8,40,-30]
 
 // let width = 10
 // let height =23
-// let s =(width*height)
+// let s =width*height
 //
 // console.log(s)
 
@@ -80,5 +78,5 @@ let numbers =[1,15,43,20,11,23,-10,8,40,-30]
 // let n = 3
 // let m = 4
 // let k = (Math.pow(n,2)+Math.pow(m,2))
-// console.log (k)
+// console.log (Math.sqrt(k))
 

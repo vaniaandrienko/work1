@@ -86,27 +86,27 @@
 // console.log(typeof c)
 
 
-// let a = 5 < 6;
-// console.log(a);
-// let a1 = 5 === 6;
-// console.log(a1);
-// let a2 = 5 > 6;
-// console.log(a2);
-// let a3 = 5 >= 6;
-// console.log(a3);
-//
-// let b = 10 === 10;
-// console.log(b)
-// let b1 = 10 <= 10;
-// console.log(b1)
-// let b2 = 10 > 10;
-// console.log(b2)
-// let b3 = 10 !== 10;
-// console.log(b3)
-// let b4 = 10 < 10;
-// console.log(b4)
+let a = 5 < 6;
+console.log(a);
+let a1 = 5 === 6;
+console.log(a1);
+let a2 = 5 > 6;
+console.log(a2);
+let a3 = 5 >= 6;
+console.log(a3);
 
-//
+let b = 10 === 10;
+console.log(b)
+let b1 = 10 <= 10;
+console.log(b1)
+let b2 = 10 > 10;
+console.log(b2)
+let b3 = 10 !== 10;
+console.log(b3)
+let b4 = 10 < 10;
+console.log(b4)
+
+
 // let a =(123 === '123')
 // console.log(a)
 // let b =(123 > '123')
