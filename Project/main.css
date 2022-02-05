@@ -19,9 +19,9 @@
     background: none;
 
 }
-.header_topbar >ul>li{
-    float: left;
-}
+/*.header_topbar >ul>li{*/
+/*    float: left;*/
+/*}*/
 .header_topbar ul::after{
     content: "";
     display: block;
@@ -190,7 +190,7 @@
 .container1_right_yellow {
     background: #F9C600;
     border-radius: 0px;
-    width: 600px;
+    width: 800px;
     height: 886px;
 
 }
