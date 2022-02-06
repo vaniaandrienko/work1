@@ -9,22 +9,107 @@
 // 8. вивести масив в зворотньому порядку.
 // 9. всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)
 
+//     1. перебрати його циклом while
+
 // let xxx = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
 // let i = 0
 // while (i<xxx.length ){
 //     console.log(xxx[i])
 //     i++
-// }
+//
+// let i=xxx.length-1
+// while (i>=0){
+//     console.log(xxx[i])
+// i--}
 
+
+
+//     2. перебрати його циклом for
+// let xxx = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
 // for (let i = 0; i < xxx.length; i++){
 //     console.log(xxx[i])
 // }
 
-// let i = 0
-// while (i<xxx.length){
+// for (let i = xxx.length-1; i >=0 ; i--) {
 //     console.log(xxx[i])
-//     i++
+//
 // }
 
 
+//     3. перебрати циклом while та вивести  числа тільки з непарним індексом
+// let xxx = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+// let i = 0
+// while (i<xxx.length){
+// if (i%2!==1){
+//     console.log(xxx[i])}
+//     i++
+// }
+
+// let i = xxx.length-1
+// while (i>=0) {
+//     if (i % 2 !== 1) {
+//         console.log(xxx[i])
+//     }
+//     i--
+// }
+
+
+// 4. перебрати циклом for та вивести  числа тільки з непарним індексом
+// let xxx = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+
+// for (let i=0; i<xxx.length; i++){
+//     if (i%2!==1){
+//     console.log(xxx[i])
+// }}
+
+
+// for (let i =xxx.length-1; i>=0; i--) {
+//     if (i%2!==1)
+//     console.log(xxx[i])
+// }
+
+
+
+// 5. перебрати циклом while та вивести  числа тільки парні  значення
+// let xxx = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+//
+// let i = 0
+// while (i < xxx.length) {
+//     if (i % 2 === 0)
+//         console.log(xxx[i])
+//         i++
+//     }
+
+// let i= xxx.length-1
+// while (i>=0){
+//     if (i % 2 === 0)
+//         console.log(xxx[i])
+//         i--
+// }
+
+
+// 6. перебрати циклом for та вивести  числа тільки парні  значення
+// let xxx = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+// for (let i = 0; i < xxx.length; i++) {
+//     if (i%2===0)
+//     console.log(xxx[i])
+// }
+
+// 7. замінити кожне число кратне 3 на слово "okten"
+let xxx = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+
+// for (let i = 0; i < xxx.length; i++)
+for (let i = xxx.length-1; i>=0; i--)
+    if (xxx[i] % 3 === 0) {
+        xxx[i] = 'okten'
+        console.log(xxx[i])
+
+    }
+console.log(xxx)
+
+
+// 8. вивести масив в зворотньому порядку.
+// let xxx = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+// for (let i = xxx.length - 1; i >= 0; i--){
+//     console.log(xxx[i])}
 
