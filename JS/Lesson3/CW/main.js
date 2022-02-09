@@ -96,16 +96,14 @@
 // }
 
 // 7. замінити кожне число кратне 3 на слово "okten"
-let xxx = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
-
-// for (let i = 0; i < xxx.length; i++)
-for (let i = xxx.length-1; i>=0; i--)
-    if (xxx[i] % 3 === 0) {
-        xxx[i] = 'okten'
-        console.log(xxx[i])
-
-    }
-console.log(xxx)
+// let xxx = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+//
+// for (let i = 0; i < xxx.length; i++){
+//     if (xxx[i] % 3 === 0){
+//         xxx[i] = 'okten'}
+//     }
+// for (let i = xxx.length-1; i>=0; i--){
+//     console.log(xxx[i])}
 
 
 // 8. вивести масив в зворотньому порядку.
