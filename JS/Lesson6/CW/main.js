@@ -1,11 +1,16 @@
 // - Дано список імен.
-//     let n1 = 'Harry..Potter'
-// let n2 = 'Ron---Whisley'
-// let n3 = 'Hermione__Granger'
+let n1 = 'Harry..Potter'
+let n2 = 'Ron---Whisley'
+let n3 = 'Hermione__Granger'
 // Написати функцію, яка приймає будь яке не валідне імя, та нормалізує його в наступнйи вигляд
 // let n1 = 'Harry Potter'
 // let n2 = 'Ron Whisley'
 // let n3 = 'Hermione Granger'
+
+let name = (a)=>{
+    return  a.replace('..',' ')
+}
+console.log(name(n1))
 
 //
 //
@@ -86,12 +91,12 @@ let coursesAndDurationArray = [
 ];
 // -- відсортувати його за спаданням за monthDuration
 
-let sortArray = coursesAndDurationArray.sort((a,b) =>b.monthDuration-a.monthDuration)
+let sortArray = coursesAndDurationArray.sort((a, b) => b.monthDuration - a.monthDuration)
 console.log(sortArray)
 
 
 // -- відфільтрувати , залишивши тільки курси з тривалістю більше 5 місяців
 
-let filterArray = coursesAndDurationArray.filter(nums=>nums.monthDuration>5)
+let filterArray = coursesAndDurationArray.filter(nums => nums.monthDuration > 5)
 console.log(filterArray)
 
