@@ -1,5 +1,7 @@
 // - Створити функцію конструктор для об'єктів User з полями id, name, surname , email, phone
 // створити пустий масив, наповнити його 10 об'єктами new User(....)
+
+
 //
 // - Взяти масив з  User[] з попереднього завдання, та відфільтрувати , залишивши тільки об'єкти з парними id (filter)
 //
@@ -54,26 +56,27 @@
 // створити пустий масив, наповнити його 10 об'єктами Client
 
 class Client {
-    constructor(id, name, surname, email, phone,order) {
+    constructor(id, name, surname, email, phone, order) {
         this.id = id
         this.name = name
         this.surname = surname
         this.email = email
         this.phone = phone
-        this.order=order
+        this.order = order
     }
 }
-let user = new Client (1, 'Ben', 'Johnson', 'ben@.gmail', '0971231211', ['mazda','car'])
-let user1 = new Client(1, 'Ben', 'Johnson', 'ben@.gmail', '0971231211',[''])
-let user2 = new Client(2, 'Bon', 'Johnson', 'bon@.gmail', '0971231212',22)
-let user3 = new Client(3, 'Bin', 'Johnson', 'bin@.gmail', '0971231213',13)
-let user4 = new Client(4, 'Bed', 'Johnson', 'bed@.gmail', '0971231214',55)
-let user5 = new Client(5, 'Bred', 'Johnson', 'bred@.gmail', '0971231215',76)
-let user6 = new Client(6, 'Brown', 'Johnson', 'brown@.gmail', '0971231216',87)
-let user7 = new Client(7, 'Bob', 'Johnson', 'bob@.gmail', '0971231217',54)
-let user8 = new Client(8, 'Big', 'Johnson', 'big@.gmail', '0971231218',44)
-let user9 = new Client(9, 'Boon', 'Johnson', 'boon@.gmail', '0971231219',37)
-let user10 = new Client(10, 'Bend', 'Johnson', 'bend@.gmail', '0971231210',89)
+
+let user = new Client(1, 'Ben', 'Johnson', 'ben@.gmail', '0971231211', ['mazda', 'car'])
+let user1 = new Client(1, 'Ben', 'Johnson', 'ben@.gmail', '0971231211', [''])
+let user2 = new Client(2, 'Bon', 'Johnson', 'bon@.gmail', '0971231212', 22)
+let user3 = new Client(3, 'Bin', 'Johnson', 'bin@.gmail', '0971231213', 13)
+let user4 = new Client(4, 'Bed', 'Johnson', 'bed@.gmail', '0971231214', 55)
+let user5 = new Client(5, 'Bred', 'Johnson', 'bred@.gmail', '0971231215', 76)
+let user6 = new Client(6, 'Brown', 'Johnson', 'brown@.gmail', '0971231216', 87)
+let user7 = new Client(7, 'Bob', 'Johnson', 'bob@.gmail', '0971231217', 54)
+let user8 = new Client(8, 'Big', 'Johnson', 'big@.gmail', '0971231218', 44)
+let user9 = new Client(9, 'Boon', 'Johnson', 'boon@.gmail', '0971231219', 37)
+let user10 = new Client(10, 'Bend', 'Johnson', 'bend@.gmail', '0971231210', 89)
 
 let userArray = [user1, user2, user3, user4, user5, user6, user7, user8, user9, user10]
 console.log(userArray)
@@ -82,7 +85,7 @@ console.log(userArray)
 // - Взяти масив (Client [] з попереднього завдання).Відсортувати його по кількості товарів в полі order по зростанню. (sort)
 
 
-let sortUser = userArray.sort((a,b)=>a.order.length-b.order.length)
+let sortUser = userArray.sort((a, b) => a.order.length - b.order.length)
 
 console.log(sortUser)
 
