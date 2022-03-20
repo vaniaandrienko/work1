@@ -1,0 +1,22 @@
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.userCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    background: coral;
+    margin: 10px;
+    margin-left: 350px
+
+}
+
+.buttonUser{
+    height: 30px;
+    margin-top: 40px;
+    background: yellow;
+    cursor: pointer;
+}
