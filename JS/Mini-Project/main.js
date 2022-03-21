@@ -7,26 +7,20 @@ fetch('https://jsonplaceholder.typicode.com/users')
         for (const user of json) {
             let userCard = document.createElement('div');
             userCard.classList.add('userCard')
-            let href = document.createElement('a');
-            href.innerText = `${user.id} - ${user.name}`
-            href.href = `./user-details.html?data=${JSON.stringify(user)}`
-
+            userCard.innerText=`${user.id} - ${user.name}`
+            let buttonUser = document.createElement('button');
+            buttonUser.classList.add('buttonUser')
+            buttonUser.innerText = 'Enter'
+            buttonUser.onclick = function () {
+                location.href = `./user-details.html?data=${JSON.stringify(user)}`
+            }
             wrapper.append(userCard)
-            userCard.append(href)
+            wrapper.append(buttonUser)
             document.body.append(wrapper)
-
-
         }
     })
 
-// let buttonUser = document.createElement('button');
-// buttonUser.classList.add('buttonUser')
-// buttonUser.innerText = 'Enter'
-// buttonUser.onclick =openUserLink(user)
-// function openUserLink(data) {
-//     let url = `./user-details.html?data=${JSON.stringify(data)};`
-//     return function() { open(url, "_blank"); }
-// }
+
 
 
 
